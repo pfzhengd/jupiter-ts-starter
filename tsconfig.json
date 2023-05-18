@@ -3,10 +3,11 @@
     "target": "ES6",
     "esModuleInterop":true,
     "declaration":true,
-    "sourceMap": true,
+    "sourceMap": false,
+    "outDir": "./lib",
     "declarationMap": true,
     "moduleResolution":"node",
-    "types": ["@types/jest","miniprogram-api-typings","mini-types"],
+    "types": ["@types/jest"],
     "lib": ["ESNext"]
   }
 }
