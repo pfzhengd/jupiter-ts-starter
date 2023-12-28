@@ -58,7 +58,7 @@ function genRollupConfig (module) {
 const moduleNames = [
   {
     name: 'index',
-    input: 'main/index.ts',
+    input: 'index.ts',
     output: 'main/index.js'
   }
 ]
